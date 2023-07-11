@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/main"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:paddingVertical="20dp"
+        android:background="@drawable/bg_light_curved"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:backgroundTint="#FF4081"
+            android:text="Sign Up"
+            android:textColor="#FF4081"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/click_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/default_user"
+            android:layout_gravity="center_horizontal"
+            app:shapeAppearanceOverlay="@style/circular"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#FF4081"
+            android:hint="Username "
+            android:minHeight="48dp"
+            android:paddingLeft="10dp"
+            android:textColor="#040000"
+            android:textColorHint="#656363" />
+<!--            android:background="@drawable/bg_inputs"/>-->
+
+        <EditText
+            android:id="@+id/etPsw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#FF4081"
+            android:hint="Email "
+            android:minHeight="48dp"
+            android:paddingLeft="10dp"
+            android:textColor="#040000"
+            android:textColorHint="#656363" />
+
+        <EditText
+            android:id="@+id/etUsrnm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#FF4081"
+            android:hint="Password "
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingLeft="10dp"
+            android:textColor="#040000"
+            android:textColorHint="#656363" />
+        <Button
+            android:id="@+id/btnsign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF4081"
+            android:onClick="save"
+            android:text="Sign Up" />
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
