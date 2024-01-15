@@ -8,6 +8,9 @@ Key Features:
 
 2. Borrowing System: Users can borrow books from the library using the application. To maintain fairness and availability, users are limited to borrowing one book at a time. This encourages responsible use of resources.
 
+##[Reports Link](https://drive.google.com/file/d/1qfV1PsOeqFDvsKfbCK3N-YpS5NQLc2rP/view?usp=sharing)   
+##[Project Video](https://drive.google.com/file/d/1jIJIQOxQ8_8Zumn2rCzisyVgLn8c3UCb/view?usp=sharing)
+
 My primary goal in developing this application was to create a user-friendly and efficient platform that simplifies the library management process. By leveraging the power of Kotlin and Android Studio, I have designed an intuitive interface that facilitates seamless navigation and effortless book borrowing.
 
 This project has been a valuable learning experience for me, allowing me to enhance my skills in software development, particularly in Kotlin programming and Android application design. It has also deepened my understanding of implementing real-world functionalities, such as user authentication and data management.
